@@ -1,10 +1,11 @@
 import React from "react";
 import "./BasicLayouts.scss";
 
-const BasicLayouts = () => {
+const BasicLayouts = (props) => {
     return (
         <div className="BasicLayouts">
-            基本布局组件啊啊
+            <div className="BasicLayouts-left">左侧导航栏</div>
+            <div className="BasicLayouts-right">{props.children}</div>
         </div>
     )
 }

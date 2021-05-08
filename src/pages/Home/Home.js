@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className="Home">
             系统主页
-            哈哈哈哈
+            <div>啊啊啊</div>
         </div>
     )
 }
